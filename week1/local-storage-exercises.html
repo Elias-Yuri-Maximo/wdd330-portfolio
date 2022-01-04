@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Story Writer</title>
+<script defer src="local-storage-script.js"></script>
+<link rel="stylesheet" href="local-storage-style.css">
+</head>
+<body>
+    <h1>Story Editor</h1>
+
+    <p>these examples ilustrate the basic possible operations on the
+        <br> local storage.
+        <br>
+
+    </p>
+
+
+    Story Name <input id="name_input"></input>
+
+
+    <section>
+        <button onclick="loadStory()">Find and Edit</button>
+        <button onclick="saveStory()">Save Story</button>
+        <button onclick="displayStory()">Display Story</button>
+    </section>
+
+    <textarea id="story_editor" placeholder="Write an awesome Story here"></textarea>
+    <section id="story_display"></section>
+
+    
+
+    <p> <strong>
+        ***It is important to note that the local storage operates with 
+        <br>key value pairs, just like JSON files***
+        </strong>
+        </p>
+
+</body>
+</html>
