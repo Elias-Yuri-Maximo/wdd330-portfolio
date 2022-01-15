@@ -4,6 +4,11 @@ const linksArray = [
         label: "Week 1:",
         theme:"Local Storage",
         url: "week1/local-storage-exercises.html"
+    },
+    {
+        label: "Week 2:",
+        theme:"Local Storage",
+        url: "week2/notes-week2.html"
     }
 ]
 
