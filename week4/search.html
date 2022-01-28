@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <title>Search</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <form name='search' action='/search'>
+        <input type='text' name='search-box' placeholder='Search Here'>
+        <button type='submit'>Search</button>
+        <!--The submit type and value will submit the form-->
+        <button type='reset'>Reset</button>
+    </form>
+    <a href="hero-form/hero.html">hero form</a>
+    <h2>Types of input fields:</h2>
+    <p>Text input with predefined amount</p>
+    <label for='donation-amount'>Enter amount to donate: 
+        <input type='text' id ='donation-amount' name='donationAmount' value='10'>
+    </label>
+
+    <p>Password</p>
+    <label for='realName'>Real Name:
+    <input type='password' name='realName' id='realName'></label>
+    <ul>
+        <li>Check if required field is completed</li>
+        <li>An e-mail adress is valid</li>
+        <li>A number entered instead of alpha characters</li>
+        <li>Check if a password is adequate</li>
+
+    </ul>
+
+
+<script src='js/forms.js'></script>
+</body>
+</html>

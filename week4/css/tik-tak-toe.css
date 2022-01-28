@@ -1,0 +1,31 @@
+
+form{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 300px;
+    width: 300px;
+
+}
+
+input{
+    border: 2px solid black;
+}
+
+#a,#b,#c{
+   
+    border-top:none ;
+}
+
+#a,#d,#g{
+    
+    border-left:none ;
+}
+#c,#f,#i{
+    
+    border-right:none ;
+}
+#g,#h,#i{
+    
+    border-bottom:none ;
+}

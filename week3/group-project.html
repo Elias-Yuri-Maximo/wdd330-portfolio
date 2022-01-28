@@ -83,6 +83,18 @@
 
     // 5. Sort the inventors by years lived
 
+    inventors.sort(function compare(inventora, inventorb){
+    if (inventora.passed - inventora.year  < inventorb.passed - inventorb.year) {
+    return -1;
+    }
+    if (inventora.passed - inventora.year > inventorb.passed - inventorb.year) {
+    return 1;
+    }else{
+    // a must be equal to b
+    return 0
+    }
+    });
+    console.log(inventors);
   
 
     // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
@@ -91,11 +103,28 @@
 
     // 7. sort Exercise
     // Sort the people alphabetically by last name
-
+    inventors.sort(function(a, b) {
+    var textA = a.last;
+    var textB = b.last;
+    return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
+});
+    console.log(inventors);
     // 8. Reduce Exercise
     // Sum up the instances of each of these
     const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
+    let countWords= data.reduce(function (allWords, word) {
+  if (word in allWords) {
+    allWords[word]++
+  }
+  else {
+    allWords[word] = 1
+  }
+  return allWords
+  }, {})
 
+  console.table(countWords);
+// countedNames is:
+// { 'Alice': 2, 'Bob': 1, 'Tiff': 1, 'Bruce': 1 } 
   </script>
 </body>
 </html>
