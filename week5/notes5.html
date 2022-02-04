@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>WDD330-Portfolio</title>
+
+        <!--Call the parallel files-->
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen" />
+        <link rel="stylesheet" href="css/main.css" media="screen">
+        
+        <script src="main5.js" defer></script>
+    </head>
+    <body>    
+    <main>
+        <h1>Week 5 notes</h1>
+        <p>Errors and Bugs will always be present,<br>
+         we as programmers must deal with them and work around them <br>
+        <ul>
+            <li>system ERROR</li>
+            <li>Programmer error</li>
+            <li>User error</li>
+        </ul>
+        Always minimalize logic and syntax Errors <br>
+        Work around system error
+        </p>
+        <h2>Exceptions</h2>
+        <p>Exceptions hae stack traces that pint to the error<br></p>
+        <h2>Warnings</h2>
+        <p>Warnings are errors that cause the program to crash, but they can be problematic <br>
+        Make sure the program fails loudly <br>
+        </p>
+
+        <h2>Strict Mode</h2>
+        <p>
+            This is the hardcore mode of JS <br>
+            It causes the poor style to become errors, it delivers a better quality of code <br>
+            'use strict'; - Add this to the beginning of a js file and it enters strict mode <br>
+            It can also be added to specific functions <br>
+            Recommended way of invocking the Strict Mode<br>
+            (function() {
+            <br>    'use strict';
+            
+            <br>    // All your code would go inside this function
+            
+            <br>}());
+            <br><br>
+            Linting tools such as <strong>JS Lint,JS Hint, and ES Lint</strong> can be used to also enforce styling
+        </p>
+            <h2>Feature Detection</h2>
+            <p>Feature detection is something that helps to check <br>
+            And keep up if browsers support a feature <br>
+            <br> ONE WAY TO DO IT : 
+            <br>
+            if (window.holoDeck) {    virtualReality.activate();}
+            <br> This would return undefined
+               
+        </p>
+
+        <h2>Debugging in the Browser</h2>
+        <p>
+            logs and alerts can be used
+            <br>
+            The braweser debug tool can also be used
+            <br>
+            debugger keywork will create a breakpoint
+            <br>
+
+        </p>
+        <h2>Error Objects</h2>
+        <p>
+            This creates an error object: const error = new Error();]
+            <br>
+            Throw will help the program to crash loudly
+            <br>
+            The best practice is to throw error objects
+            <br>throw new Error('Something has gone badly wrong!');
+
+        </p>
+        <h2>Exception Handling</h2>
+        <p>Try and Catch Blocks  are used basically just like python<br>
+            A finally block can be also added in order to execute something <br>
+            REGARDLESS OF THE EXCEPTION <br>
+        </p>
+
+        <h2>Tests</h2>
+        <p>
+            A test can be a function that tests what we wrote
+        </p>
+        <h3>Test Driven Development</h3>
+        <ol>
+            <li>Write Tests</li>
+            <li>Write Code to pass the Tests</li>
+            <li>Refactor the code</li>
+            <li>Test the refactored code</li>
+            <li>Write more tests for new features</li>
+        </ol>
+        This is BEST practice but not always used
+        
+            <h3>Jest</h3>
+        <p>
+            npm install -g jest <br>
+
+            **LOOK DEEPER INTO JEST LATER**
+            
+        </p>
+        <h3>Crunching Some Numbers</h3>
+
+    </main>
+    scr
+    </body>
+</html>
