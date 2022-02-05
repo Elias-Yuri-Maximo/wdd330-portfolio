@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+main{
+    max-width: 500px;
+    font-family: 'roboto';
+    font-weight: 900;
+}
+
+article{
+    border: solid .5px black;
+    padding: 5px;
+}
+#controllers{
+    border: solid .5px black;
+    padding: 5px;
+    display: flex;
+    background-color: #DBFF76;
+}
+
+#controllers button{
+    border: none;
+    background-color: #777;
+    color: white;
+    margin: 0 5px 0 5px;
+    margin-left: auto;
+    
+    
+}
+.task{
+    border: solid .5px black;
+    padding: 5px;
+    display: flex;
+    background-color: #B6DC76;
+}
+.task button{
+    margin-left: auto;
+    border: none;
+    background-color: #777;
+    color: white;
+}
+
+#add-task{
+    border: solid .5px black;
+    padding: 5px;
+    display: flex;
+    margin-top:100px;
+    background-color: #DBFF76;
+
+}
+
