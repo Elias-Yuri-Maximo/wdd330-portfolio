@@ -4,6 +4,7 @@ main{
     max-width: 500px;
     font-family: 'roboto';
     font-weight: 900;
+    font-size: larger;
 }
 
 article{
@@ -47,4 +48,6 @@ article{
     background-color: #DBFF76;
 
 }
+
+
 

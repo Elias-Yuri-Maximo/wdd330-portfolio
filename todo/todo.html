@@ -6,18 +6,21 @@
 
         <!--Call the parallel files-->
         <link rel="stylesheet" href="css/main.css" media="screen">    
-        <script src="js/main.js"></script>
+    
+        <script src="js/main.js" type="module"></script>
+        
 
     </head>
     <body>    
     <main>
         <h1>Todos</h1>
 
-        <article>
+        <article id="base">
+            
         <form class="task">
             <input type="checkbox">
             <label>Task Name</label>
-            <button>X</button>
+            <button id="deleteTask">X</button>
         </form>
 
         
@@ -34,8 +37,8 @@
         </article>
 
         <form id="add-task">
-            <input type="text">
-            <button>+</button>
+            <input id="taskName" type="text">
+            <button id="addTask">+</button>
         </form>
        
     </main>
