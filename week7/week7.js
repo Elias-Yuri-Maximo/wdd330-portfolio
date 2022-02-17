@@ -595,3 +595,9 @@ fetch(request)
 //.catch( error => console.log('There was an error!') )
 
 //RECEIVING INFORMATION
+
+//FORM DATA
+//THE fetch API includes a FormData interface
+
+const data = new FormData();
+
