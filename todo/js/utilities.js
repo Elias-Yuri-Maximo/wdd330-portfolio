@@ -22,7 +22,7 @@ listener to
 * @param {function} callback The callback function to run
 */
 
-elementSelector.addEventListener("touchend", callback);
+//elementSelector.addEventListener("touchend", callback);
 elementSelector.addEventListener("click", callback);
 
 }

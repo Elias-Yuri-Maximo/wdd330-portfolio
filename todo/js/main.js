@@ -2,9 +2,11 @@ import { checkLS, readFromLS, writeToLS } from "./ls.js";
 import { qs,onTouch } from "./utilities.js";
 import Todos from "./toDos.js";
 
+
 const toDoList = new Todos;
 
-onTouch(qs('#addTask'),addTodo);
+
+
 
 /*
 TEST CODE

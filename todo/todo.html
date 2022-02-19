@@ -7,7 +7,7 @@
         <!--Call the parallel files-->
         <link rel="stylesheet" href="css/main.css" media="screen">    
     
-        <script src="js/main.js" type="module"></script>
+        
         
 
     </head>
@@ -16,23 +16,25 @@
         <h1>Todos</h1>
 
         <article id="base">
-            
-        <form class="task">
-            <input type="checkbox">
-            <label>Task Name</label>
-            <button id="deleteTask">X</button>
-        </form>
+        <ul id="unordered-list">
+            <li class="task">
+                <input type="checkbox">
+                <label>Task Name</label>
+                <button id="deleteTask">X</button>
+            </li>
+   
+        </ul>
 
         
         
         
     
-            <form  id="controllers">
+           
                 <label id="total-label">3 to go</label>
-                <button>All</button>
-                <button>Active</button>
-                <button>Completed</button>
-            </form>
+                <button id="All">All</button>
+                <button id="Active">Active</button>
+                <button id="Completed">Completed</button>
+           
 
         </article>
 
@@ -42,5 +44,6 @@
         </form>
        
     </main>
+    <script src="js/main.js" type="module"></script>
     </body>
 </html>
