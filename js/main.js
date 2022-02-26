@@ -34,6 +34,11 @@ const linksArray = [
         label: "Week 7:",
         theme:"Further Functions and AJAX",
         url: "week7/week7-notes.html"
+    },
+    {
+        label: "Week 8:",
+        theme:"Canvas and Other graphic frameworks",
+        url: "week8/week8-notes.html"
     }
 ]
 

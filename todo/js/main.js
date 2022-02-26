@@ -3,10 +3,11 @@ import { qs,onTouch } from "./utilities.js";
 import Todos from "./toDos.js";
 
 
-const toDoList = new Todos;
+const toDos= new Todos;
 
+toDos.addFixedEventListeners();
 
-
+//console.log(toDoList);
 
 /*
 TEST CODE
