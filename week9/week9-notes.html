@@ -13,8 +13,65 @@
     <body>    
     <main>
     <h1>Managing Modern Workflow</h1>
-    <p></p>
-   
+    <p>BOM = Browser Object Model has a collection of information 
+    There is no official information on the BOM. It only makes sense in a browse environemnt.
+    <br>// from within the global scope
+    <br>const global = this;
+
+    <p>**Notes for the reading are on week9.js</p>
+    <a href="animation/index.html">Notes on animation</a>
+
+</p>
+    <hr>
+    <h1>HTML5 APIs</h1>
+    <p>Latest version of Hypertext markup language <br>
+    brought together a number of related technologies</p>
+
+    <h2>HTML 5</h2>
+    <p>Html 5.1 is the current standard, html 5.3 is currently in development 
+       Allows different specification to be separated.  
+    </p>
+
+    <h2>data- Attribute</h2>
+    <p>Way of embedding data in a page using custom attributes</p>
+    <p>Intended to be used by external service</p>
+    <p>Examples of data-</p>
+    <p>data-powers = 'flight superSpeed' <br>
+        data-rating = '5' <br>
+        data-dropdown <br>
+        data-user = 'DAZ' <br>
+        data-max-length = '32'</p>
+    <p>Can be used to identify particular elements</p>
+    <p>Data dropdown could be used as a dropdown lostfor instance</p>
+
+    <p>Example of embeded attribute data- (see html)/p>
+    <div id='hero' data-powers='flight superSpeed'>
+        Superman
+    </div>
+    <p>const superman = document.getElementById('hero');<br>
+        const powers = superman.dataset.powers;<br>
+        'flight superSpeed'</p>
+    <h2>HTML5 APIs</h2>
+    <p>Contains several APIs that give access to devices</p>
+    <h3>HTML5 Web Storage</h3>
+    <p>Web storage provides  a key-value store on client's computer</p>
+    <p>This is different from cookies. 
+        <br>Information stored is not shared with the server on every request.
+        <br>Information is available in multiple windows of the browser (but only if the domain is the same).
+        <br>Storage capacity limit is much larger than the 4KB limit for cookies ( There is no actual limit in the specification, but most browsers have a limit set at 5GB per domain.).
+        <br>Any data stored does not automatically expire as it does with cookies. This potentially makes cookies a better choice for something like showing a popup once a day.
+    </p>
+
+    <p>Things work basically like localstorage</p>
+    <strong><p>More examples on this are written on the week9.js</p></strong>
+    <a href="factorizing/factorizing.html">factorizing example</a>
+    <a href="websocket/websocket.html">Websocket Example</a>
+
+
+    <canvas id='canvas' width='400' height='400'>Sorry, but your browser does not support the canvas element</canvas>
+    
+
+
 
 
 
