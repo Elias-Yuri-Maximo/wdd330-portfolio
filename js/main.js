@@ -42,9 +42,8 @@ const linksArray = [
     },
     {
         label: "Week 9:",
-
-theme:"APIs",
-url: "week9/week9-notes.html"
+        theme:"APIs",
+        url: "week9/week9-notes.html"
     },
     {
         label: "Week 10:",
