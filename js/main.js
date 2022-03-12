@@ -43,7 +43,12 @@ const linksArray = [
     {
         label: "Week 9:",
         theme:"Canvas and Other graphic frameworks",
-        url: "week8/week9-notes.html"
+        url: "week9/week9-notes.html"
+    },
+    {
+        label: "Week 10:",
+        theme:"Forms a nd fetch API",
+        url: "week10/week10-notes.html"
     }
 ]
 

@@ -1,0 +1,11 @@
+input:invalid:required {
+    background-image: linear-gradient(to right, pink, lightgreen);
+  }
+
+.form1{
+    background-color: #bdecb6;
+}
+
+.form2{
+    background-color: #80cee1;
+}

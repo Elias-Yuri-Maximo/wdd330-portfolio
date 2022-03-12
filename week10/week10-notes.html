@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>WDD330-Portfolio</title>
+
+        <!--Call the parallel files-->
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen" />
+        <link rel="stylesheet" href="css/main.css" media="screen">
+        
+        <script src="week10.js" defer></script>
+        <script>
+        const email = document.getElementById("email");
+    
+        email.addEventListener("input", function (event) {
+        if (email.validity.typeMismatch) {
+            email.setCustomValidity("I am expecting an e-mail address!");
+            email.reportValidity();
+        }else {
+            email.setCustomValidity("");
+        }
+        });
+    
+        </script>
+    </head>
+    <body>    
+    <main>
+    <h1>Reading 1 Client-side validation</h1>
+    <p>There are 2 types of client-side validation
+        <ul>
+            <li>Built-in</li>
+            <li>Javascript</li>
+        </ul>
+        Built in consists of HTML attributes and functionalities that help us do that
+        Javascript are scripts that check if the information is correct
+        Here is an example: 
+        <br>
+        <br>
+    </p>
+
+        <h2>FORM 1 - BUILT IN VALIDATION</h2>
+        <form class="form1">
+            <label for="choose">Would you prefer a banana or cherry?</label>
+            <input id="choose" name="i_like">
+
+            <br>
+            <br>
+            <label for="name">Name</label>
+            <input id="name" type="text" required></input>
+            
+            <br>
+            <br>
+            <label for="e-mail">E-mail</label>
+            <input id="email" type="email" required>
+            
+            <br>
+            <br>
+            <p>Requires 8 characters, an uppercase, a special character and a number</p>
+            <label for="password">Password</label>
+            <input pattern="/^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$/" id="password" type="password" required>
+            
+            <br>
+            <br>
+            <p><strong>*Min of 20 characters max of 80*<strong></p>
+            <label for="description">Describe your fruit of choice</label>
+            <br>
+            <textarea name="description" id="description" cols="30" rows="10" maxlength="80" minlength="20"></textarea>
+            
+            <br>
+            <br>
+            <label for="number">How many do you want?</label>
+            <input id="number" type="number" min="1" max="10">
+
+
+            <button>Submit</button>
+
+        </form>
+
+    
+     
+        <form class="form2">
+            <label for="mail">I would like you to provide me with an e-mail address:</label>
+            <input type="email" id="mail" name="mail">
+            <button>Submit</button>
+          </form>
+          
+
+          
+  
+
+    <h1>Using the Fetch API</h1>
+    <p><strong>**Notes on the javascript file**</strong></p>
+   
+
+
+
+    
+    </main>
+
+
+    </body>
+</html>
