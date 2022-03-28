@@ -1,0 +1,112 @@
+@media only screen and (min-width: 64rem) {
+    nav button{display:none;}
+    
+    nav ul {margin-left: 2%;}
+    
+    nav ul.hide{display:block;}
+    
+    nav ul li{
+        float: left;
+    }
+    
+    nav ul li a {
+        border:none;
+        border-right:1px solid rgba(0, 0, 0, 0.3) ;
+        padding: .6rem 1rem;
+    }
+    
+    h1{
+        font-family: "montserrat", sans-serif;
+        font-style: italic;
+        font-weight: 1000;
+        font-size: 4em;
+        margin: 0px;
+        }
+    
+    .contact-information{
+        height: auto;
+        display: grid;
+        grid-template-columns: 70% 30% ;
+            
+    }
+    .contact-information .map{
+    
+        max-height: 100% ;
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 10px;
+        
+        display: block;
+        
+    }
+    
+    .contact-information p{
+        padding: 10px;
+    
+    }
+    .extra-info{
+        display: block;
+    }
+    
+    .article img{
+        float: right;
+        max-width: 500px;
+        
+        margin-right: 0px;
+        
+    }
+    
+    
+            /**********************************************************************************************************************/
+            /**********************************************************************************************************************/
+            /**********************************************************************************************************************/
+            /**********************************************************************************************************************/
+            /**********************************************************************************************************************/
+            /**********************************************************************************************************************/
+            /**********************************************************************************************************************/
+            /**********************************************************************************************************************/
+            /*CSS RELATED TO THE GALERY ONLY*/
+    
+            .gallery-grid{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+    
+            .campinas-demographic-info{
+                display: grid;
+                grid-template-columns: auto auto;
+                max-width: none;
+                }
+    
+            .gallery-grid figure:hover {box-shadow: 0 0 50px #333;}
+    
+            .marketing{display: block;}
+            /**********************************************************************************************************************/
+            /**********************************************************************************************************************/
+            /**********************************************************************************************************************/
+            /*CSS RELATED TO THE GALERY ONLY*/
+    
+            /*
+            .home-grid section{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+            .home-grid section article{
+                display: block;
+                text-align: center;
+            }
+            */
+    
+            .events-information-grid{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                margin-bottom: 50px;
+            }
+            
+            .events-information-grid img{
+                max-width: 100%;
+            }
+    
+    
+    
+    }

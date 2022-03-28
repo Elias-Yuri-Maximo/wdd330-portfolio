@@ -49,6 +49,11 @@ const linksArray = [
         label: "Week 10:",
         theme:"Forms a nd fetch API",
         url: "week10/week10-notes.html"
+    },
+    {
+        label: "Final Project:",
+        theme:"Book Management System",
+        url: "final-project/index.html"
     }
 ]
 

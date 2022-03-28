@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400&display=swap');
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*CSS RELATED TO THE HEADER*/
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+
+img{
+    max-width: 100%;
+}
+body{
+    background-color: black;
+}
+main{
+ padding: 10px;
+    background-color: white;
+}
+
+.pancake{
+    
+    background-color: rgb(236, 18, 18);
+    color: white;
+    padding: 2px 20px 20px 20px;
+    margin-top: 10px;
+}
+.pancake button{
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    float: right;
+}
+
+
+
+
+
+header{
+    max-height: 200px;
+    display: flex;
+    margin-bottom: 3px;
+    background-color: rgb(211, 246, 255);
+    
+}
+
+header figure{margin: 0px;}
+header figure img{
+   
+    padding: 10px;
+    
+    
+    border-radius: 100px;
+}
+
+h1{
+font-family: "nunito", "roboto";
+font-style: italic;
+font-weight: 800;
+font-size: 3em;
+margin: 0px;
+}
+
+
+h2{
+    margin: 0px;
+    font-family: "nunito", Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 1.3em;
+}
+
+h3{
+    margin-top: 10px;
+    margin-bottom: 0%;
+    font-family: "roboto", Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 1.5em;
+}
+h4{
+    font-family: "roboto", Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: "roboto", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*CSS RELATED TO THE NAV BAR*/
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+
+nav button{
+    margin: .2rem 2%;
+    background-color: #141415;
+    border:none;
+    font-size: 1.6rem;
+    color: white;
+}
+nav img{
+    max-height: 70px;
+}
+nav{
+    background-color: #141415;
+    font-family: "roboto", Verdana, Tahoma, sans-serif;
+    font-weight: 800;
+    
+    font-size: 1.5em;
+}
+
+nav ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+
+nav ul li a{
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    
+    color: rgba(255,255,255,0.8);
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+nav ul li a:hover{
+    color: #ffbc42
+}
+nav ul li.active a{
+    background-color: rgba(0, 0, 0, 0.3);  
+    text-decoration: underline;}
+
+/*nav ul li a:hover{}*/
+
+nav ul.hide{display: none;}
+
+/*CSS RELATED TO MAIN*/
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+
+.extra-info{
+    display: none;
+}
+
+main{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    }
+
+div img{
+    max-width: 100%;
+    
+    
+}
+
+/*CSS realted to the hero image and div*/
+.hero-div{
+    position: relative;
+    border: transparent;
+    background-color: transparent;
+    
+}
+
+.hero-image{
+    width: 100%;
+
+}
+
+.events-information-grid{
+    display: block;
+    text-align: center;
+}
+
+.site-title{
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(0, 0, 0));
+
+    color: white;
+	padding: 0.5rem;
+	opacity: .95;
+
+}
+
+
+/*CSS RELATED TO FOOTER*/
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+
+footer{
+    text-align: center;
+   
+    margin: 0px;
+    color: white;
+    background-color: black;
+    border-top: 2px solid rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    
+}
+
+a{
+    color: white;
+}
+
+/**********************************************************************************************************************/
+/**********************************************************************************************************************/
+/**********************************************************************************************************************/
+/**********************************************************************************************************************/
+/*CSS RELATED TO THE GALERY ONLY*/
+
+.gallery-grid{
+    display: grid;
+    background-color: white;
+    border: transparent;
+    grid-gap:5px;
+}
+
+.gallery-grid figure{
+    margin: 0%;
+    padding: 0%;
+    text-align: center; 
+}
+
+.gallery-grid p{
+    padding-bottom: 10px;
+}
+
+
+
+
+.gallery-grid figure img[data-src] {
+    filter: blur(0.8em);
+  }
+
+.gallery-grid figure img{
+    margin: 0%;
+    padding: 0%;
+    filter: blur(0em);
+    transition: 0.9s;
+}
+
+
+
+
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.map-section{
+    display: flex;
+    border: solid 1px #999;
+    padding: 4px;
+}
