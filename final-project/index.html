@@ -17,10 +17,10 @@
         App that helps the user manage his or her books read and reading">
         
 
-        <link rel="shortcut icon" href="images/logo/favicon.ico">
+        <link rel="shortcut icon" href="">
       
         <script defer src="js/nav-script.js"></script>
-        <script defer src="js/dates.js"></script>
+        <!--script defer src="js/dates.js"></script-->
         <script type="module" defer src="js/main.js"></script>
     </head>
  
@@ -68,9 +68,29 @@
                     </div>
 
     <main>
+            <!--DIV WITH THE SEARCH AND RESULT BAR-->
             <div class="search-book">
+                <!--search bar-->
+                <h2>Search a Book</h2>
+                <form >
+                <input id="search" type="text" placeholder="Search..">
+                
+                <input type="button" value="Search Book" id="searchBtn" ></input>
+                </form>
+               
+                <!--results div-->
+                <ul id = "responses">
+                    <!--li><h3>name</h3>
+                    <p>author</p>
+                    <p>descriptions</p>
+                    <p display="none">badada</p>
+                    </li-->
+                </ul>
+    
 
             </div>
+
+            <br>
       
 
             
