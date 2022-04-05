@@ -3,7 +3,7 @@
     <head>
         <!--link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">-->
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen" />
+        <!--link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen" /-->
         <link rel="stylesheet" type="text/css" href="css/small.css" media="screen" />
         <link rel="stylesheet" type="text/css" href="css/medium.css" media="screen" />
         <link rel="stylesheet" type="text/css" href="css/large.css" media="screen" />
@@ -17,11 +17,11 @@
         App that helps the user manage his or her books read and reading">
         
 
-        <link rel="shortcut icon" href="">
+        <link rel="shortcut icon" href="#">
       
         <script defer src="js/nav-script.js"></script>
         <!--script defer src="js/dates.js"></script-->
-        <script type="module" defer src="js/main.js"></script>
+        <script type="module" src="js/main.js"></script>
     </head>
  
 <body>
@@ -38,8 +38,8 @@
 
             <!--li><a href="index.html"><img src="images/logo/camp-chamber-logo2.png" alt="logo"></a></li-->
             <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="campinas.html">My Library</a></li>
-            <li><a href="campinas.html">Add Books</a></li>
+            <li><a href="#my-library" >My Library</a></li>
+            <li><a href="#search-book">Add Books</a></li>
         
             
                                    
@@ -69,13 +69,13 @@
 
     <main>
             <!--DIV WITH THE SEARCH AND RESULT BAR-->
-            <div class="search-book">
+            <div id="search-book" class="search-book">
                 <!--search bar-->
                 <h2>Search a Book</h2>
                 <form >
                 <input id="search" type="text" placeholder="Search..">
                 
-                <input type="button" value="Search Book" id="searchBtn" ></input>
+                <input type="button" value="Search Book" id="searchBtn" >
                 </form>
                
                 <!--results div-->
@@ -99,76 +99,12 @@
        
 
             <!--DIV WIHT THE MY LIBRARY INFORMATION-->
-        <div class="my-library">
+        <div id="my-library" class="my-library">
                 <h2>My Library</h2>
                 <!--GALERY GRID-->
                 <div class="gallery-grid">
                     <!--Grid with the individual books-->
-                <figure>
-                
-                    <!--source media="(max-width:300px)" srcset="images/blue-cloud-300x200.jpg">
-                    <source media="(max-width:600px)" srcset="images/blue-cloud-600x400.jpg">
-                    <source media="(max-width:1200px)" srcset="images/blue-cloud-1200x800.jpg"-->
-                    <img src="" alt="Park at sunrise">
-                    <h4>Taquaral Park Picknick</h4>
-                    <p>General Picknick at the taquaral Park <br>
-                    Saturday Dec 11th 16:00</p>
-                </figure>
-    
-                    <!--IMAGE RAINBOW-->
-                <figure>
-                    <!--source media="(max-width:300px)" srcset="images/rainbow-over-lake-300x200.jpg">
-                    <source media="(max-width:600px)" srcset="images/rainbow-over-lake-600x400.jpg">
-                    <source media="(max-width:1200px)" srcset="images/rainbow-over-lake-1200x800.jpg"-->
-                    <img src="" alt="Fount with flowers around it">
-                    <h4>Flower Festival</h4>
-                    <p>At Boca do Leão Park <br>
-                    Saturday Dec 18th 17:00</p>
-                </figure>
-    
-                    <!--IMAGE BUS SNOW-->
-                <figure>
-                    <!--source media="(max-width:300px)" srcset="images/bus-snow-300x200.jpg">
-                    <source media="(max-width:600px)" srcset="images/bus-snow-600x400.jpg">
-                    <source media="(max-width:1200px)" srcset="images/bus-snow-1200x800.jpg.jpg"-->
-                    <img src="" alt="Empty chairs at reastaurant">
-                    <h4>Gastronomical Contest</h4>
-                    <p>At the Madero Restaurant <br>
-                    Saturday Dec 18th 20:00</p>
-                </figure>
-    
-                    <!--IMAGE-->
-                <figure>
-                    <!--source media="(max-width:300px)" srcset="images/dark-ligtning-300x200.jpg">
-                    <source media="(max-width:600px)" srcset="images/dark-ligtning-600x400.jpg">
-                    <source media="(max-width:1200px)" srcset="images/dark-ligtning-1200x800.jpg.jpg"-->
-                    <img src="" alt="People eating hamburgers">
-                    <h4>Fit Burger Contest</h4>
-                    <p>At the Bronco Burger Restaurant <br>
-                    Friday Dec 17th 19:00</p>
-                </figure>
-    
-                    <!--IMAGE-->
-                <figure>
-                    <!--source media="(max-width:300px)" srcset="images/orange-cloud-300x200.jpg">
-                    <source media="(max-width:600px)" srcset="images/orange-cloud-600x400.jpg">
-                    <source media="(max-width:1200px)" srcset="images/orange-cloud-1200x800.jpg.jpg"-->
-                    <img src="" alt="Stadium">
-                    <h4>Ponte Preta Soccer Match</h4>
-                    <p>At the Moses Lucarelli Stadium <br>
-                    Saturday Dec 18th 15:00</p>
-                </figure>
-    
-                    <!--IMAGE-->
-                <figure>
-                    <!--source media="(max-width:300px)" srcset="images/orange-storm-cloud-300x200.jpg">
-                    <source media="(max-width:600px)" srcset="images/orange-storm-cloud-600x400.jpg">
-                    <source media="(max-width:1200px)" srcset="images/orange-storm-cloud-1200x800.jpg.jpg"-->
-                    <img src="" alt="Animals in a Zoo">
-                    <h4>Jequitibás Zoo Tour with João da Souza</h4>
-                    <p>At Jequitibás Zoo <br>
-                    Saturday Dec 18th 8:00</p>
-                </figure>
+               
             </div>
         </div>
        
