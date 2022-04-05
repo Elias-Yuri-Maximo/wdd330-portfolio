@@ -3,7 +3,7 @@ import { createBook } from "./myLibrary.js";
 
 export let uniData = {} 
 
-export default function searchGoogleBooks(query, myLibrary){
+export default function searchGoogleBooks(query){
     
     const url = 'https://www.googleapis.com/books/v1/volumes?q='+query+'&key=AIzaSyC6x4GpMpFVOACgMcUR2CZIfPqzB-3LAP4';
     
@@ -20,6 +20,7 @@ export default function searchGoogleBooks(query, myLibrary){
         renderResponse(data)
         uniData = {}
         uniData = data
+        console.log(data)
     })
     //.then(response => response.json())
     //.then(data => console.log(data));
