@@ -1,6 +1,6 @@
 export function getLs(key){
     //Gets the key for a slot and returns 
-    if (localStorage.getItem(key)!== undefined){
+    if (localStorage.getItem(key)!== null){
         
         return JSON.parse(localStorage.getItem(key))
 
