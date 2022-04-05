@@ -164,6 +164,9 @@ div img{
     position: relative;
     border: transparent;
     background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     
 }
 
